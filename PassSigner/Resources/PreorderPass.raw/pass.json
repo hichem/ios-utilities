@@ -1,0 +1,46 @@
+{
+  "formatVersion" : 1,
+  "passTypeIdentifier" : "pass.com.ingenico.ismpdemo",
+  "serialNumber" : "0000000000",
+  "teamIdentifier" : "PU4TZ8JJCC",
+  "webServiceURL" : "https://example.com/passes/",
+  "authenticationToken" : "vxwxd7J8AlNNFPS8k0a0FfUFtq0ewzFdc",
+  "relevantDate" : "2012-12-24T12:00+01:00",
+  "barcode" : {
+    "message" : "1234567890iSMPDemo",
+    "format" : "PKBarcodeFormatQR",
+    "messageEncoding" : "iso-8859-1"
+  },
+  "organizationName" : "iSMPDemo",
+  "description" : "iSMPDemo",
+  "logoText" : "iSMPDemo",
+  "foregroundColor" : "rgb(255, 255, 255)",
+  "backgroundColor" : "rgb(197, 31, 31)",
+  "generic" : {
+    "primaryFields" : [
+      {
+        "key" : "amount",
+        "value" : "AMOUNT"
+      }
+    ],
+    "secondaryFields" : [
+      {
+        "key" : "store",
+        "label" : "Store",
+        "value" : "iSMPDemo Store"
+      }
+    ],
+    "auxiliaryFields" : [
+      {
+        "key" : "item0",
+        "label" : "iPod",
+        "value" : "250.00€"
+      },
+      {
+        "key" : "item1",
+        "label" : "iPad",
+        "value" : "499.00€"
+      }
+    ]
+  }
+}
